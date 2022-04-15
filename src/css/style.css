@@ -83,7 +83,11 @@ nav {
     background: none;
     border: 2px solid darkslategray;
     border-radius: 10px;
-    padding: 0px 16px;  
+    padding: 0px 16px; 
+    opacity: 1
+}
+#buttons1 input:hover {
+    opacity: 0.5
 }
 .tittle__container2 {
     width: 100%;
@@ -112,7 +116,11 @@ nav {
     border-radius: 10px;
     margin-left: 585px;
     margin-right: 585px;
-    background-color: darkseagreen
+    background-color: darkseagreen;
+    opacity: 1
+}
+#button_resume:hover {
+    opacity: 0.5
 }
 #buttton {
     background-color: darkseagreen;
@@ -139,6 +147,11 @@ nav {
     float: left;
     padding: 65px;
     text-align: center;
+}
+.tittle__container3>.whatinside:hover {
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .span {
     padding-top: 15px;
@@ -237,7 +250,11 @@ nav {
     background-color: burlywood;
     border: 2px solid aquamarine;
     margin: 10px;
-    color: aquamarine;    
+    color: aquamarine; 
+    opacity: 1;
+}
+#listtip:hover {
+    opacity: 0.5;
 }
 #design {
     text-align: center
@@ -254,6 +271,10 @@ nav {
     border: 2px solid aquamarine;
     margin: 10px;
     color: aquamarine;
+    opacity: 1
+}
+#listdesign:hover {
+    opacity: 0.5
 }
 #adapt {
     text-align: center
@@ -270,6 +291,10 @@ nav {
     border: 2px solid aquamarine;
     margin: 10px;
     color: aquamarine;
+    opacity: 1
+}
+#listadapt:hover {
+    opacity: 0.5
 }
 #strip {
     margin-left: 325px;
@@ -333,6 +358,11 @@ nav {
      float: left;
     padding: 65px;
     text-align: center;
+}
+#statelements>div:hover {
+     -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 #happy {
     font-size: 20px;
