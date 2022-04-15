@@ -1,0 +1,506 @@
+body {
+    font-family: sans-serif
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: burlywood;
+
+}
+
+.logo {
+    font-size: 60px;
+    line-height: 60px;
+    color: aliceblue;
+    float: left;
+    padding-left: 210px;
+}
+
+.menu {
+    float: left;
+    padding-left: 150px;
+}
+
+.menu li {
+    float: left;
+    margin-right: 15px;
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    width: calc(100%-60px);
+    background: url(../img/themes/%E8%BC%AA%E7%B4%8B.png);
+    color: darkslategray;
+    box-shadow: 10px 10px 10px 10px rgb(255,0,0,0.5);
+}
+
+.title__container {
+    float: left;
+    margin: 200px 0px 0px 80px;
+    text-align: center;
+}
+
+#photo1 {
+    height: 100%;
+    width: auto;
+    float: right;
+}
+
+.privet {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#future {
+    font-size: 20px;
+    font-weight: 600;    
+}
+#buttons1 input {
+    text-align: center;
+    height: 40px;
+    color: darkslategray;
+    font-size:15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 20px;
+    background: none;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    padding: 0px 16px;  
+}
+.tittle__container2 {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+#about_me {
+    font-size: 35px;
+    color: darkslategrey;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    }
+#photo_min {
+    border-radius: 50%
+}
+#webbb {
+    margin-top:30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: darkslategrey
+}
+#button_resume {
+    margin-top: 30px;
+    border: 2px solid darkslategrey ;
+    border-radius: 10px;
+    margin-left: 585px;
+    margin-right: 585px;
+    background-color: darkseagreen
+}
+#buttton {
+    background-color: darkseagreen;
+    margin-top: 6px;
+    color: darkslategrey;
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;    
+}
+.tittle__container3 {
+    width: 100%;
+    height: 600px;
+    float: left;
+    background: url(../img/themes/dark-wood.jpg)    
+}
+#what {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: aquamarine;
+    padding-top: 40px;
+}
+.tittle__container3>.whatinside {
+    float: left;
+    padding: 65px;
+    text-align: center;
+}
+.span {
+    padding-top: 15px;
+    color: antiquewhite;
+    font-size: 15px;
+}
+.what1 {
+    font-size: 20px
+}
+.tittle__container4 {
+    width: 100%;
+    height: 1000px;
+    float: left;
+    background: url(../img/themes/asteroids.jpg)
+}
+.screen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px  rgb(255,0,0,0.5)
+}
+#caises {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    padding: 40px;   
+}
+#caises2 {
+    font-weight: bold;
+    color: rgb(255,55,55)
+}
+#mfc {
+    width: 250px;
+    background-color: deepskyblue;
+    margin-left: 50px;
+    margin-top: 10px;
+        float: left;
+}
+.aaa1 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: darksalmon
+}
+#mfw {
+    width: 250px;
+     background-color: deepskyblue;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+#visitbutton {
+    width: 250px;
+     background-color: deepskyblue;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue
+}
+#projectname {
+    float: left;
+    background-color: deepskyblue;
+    width: 63%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;    
+}
+#prjnm {
+    font-size: 20px;
+    font-weight: bold;
+    color: darksalmon;
+    margin: 10px;
+}
+#pay {
+    height: 1950px;
+    background-color: cadetblue;
+}
+#payh2 {
+    text-align: center;
+    font-size: 30px;
+    color: aquamarine;
+    font-weight: bold;
+    margin: 20px;
+}
+#tip {
+    text-align: center;
+}
+#tiph2 {
+    font-size: 20px;
+    color: aquamarine;
+    font-weight: bold;
+}
+#listtip {
+    width: 700px;
+    height: 30px;
+    background-color: burlywood;
+    border: 2px solid aquamarine;
+    margin: 10px;
+    color: aquamarine;    
+}
+#design {
+    text-align: center
+}
+#designh2 {
+    font-size: 20px;
+    color: aquamarine;
+    font-weight: bold;
+}
+#listdesign {
+     width: 700px;
+    height: 30px;
+    background-color: burlywood;
+    border: 2px solid aquamarine;
+    margin: 10px;
+    color: aquamarine;
+}
+#adapt {
+    text-align: center
+}
+#adapth2 {
+    font-size: 20px;
+    color: aquamarine;
+    font-weight: bold;
+}
+#listadapt {
+      width: 700px;
+    height: 30px;
+    background-color: burlywood;
+    border: 2px solid aquamarine;
+    margin: 10px;
+    color: aquamarine;
+}
+#strip {
+    margin-left: 325px;
+    width: 700px;
+    height: 3px;
+    background-color: aquamarine
+}
+
+#time {
+    height: auto;
+    width: 350px;
+    margin-left: 325px;
+    font-size: 25px;
+    font-weight: bold;
+    color: aquamarine;
+    float: left
+}
+#time1 {
+    text-align: end;
+    margin-right: 325px;
+     font-size: 25px;
+    font-weight: bold;
+    color: aquamarine;
+    margin-top: 10px;
+    height: auto
+}
+#cash {
+     height: auto;
+    width: 350px;
+    margin-left: 325px;
+    font-size: 25px;
+    font-weight: bold;
+    color: aquamarine;
+    float: left
+}
+#cash1 {
+    text-align: end;
+    margin-right: 325px;
+     font-size: 25px;
+    font-weight: bold;
+    color: aquamarine;
+    margin-top: 15px;
+    height: auto
+}
+#stat {
+    background: url(../img/themes/shattered-island.gif);
+    height: 600px;
+}
+#stath2 {
+    text-align: center;
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px
+}
+#statelements {
+    margin-left: 10px;
+    margin-top: 100px
+}
+#statelements>div {
+     float: left;
+    padding: 65px;
+    text-align: center;
+}
+#happy {
+    font-size: 20px;
+    color: darkturquoise;
+    margin-top: 10px;
+    font-weight: bold
+}
+#hours {
+    font-size: 20px;
+    color: darkturquoise;
+    margin-top: 10px;
+    font-weight: bold
+}
+#ends {
+    font-size: 20px;
+    color: darkturquoise;
+    margin-top: 10px;
+    font-weight: bold
+}
+#trof {
+    font-size: 20px;
+    color: darkturquoise;
+    margin-top: 10px;
+    font-weight: bold
+}
+#otz {
+    background-color: whitesmoke;
+    height: 300px;
+}
+#otzh2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: coral;
+}
+#otz1 {
+    text-align: center;
+    margin-top: 30px
+}
+#otz1img {
+    width:100px;
+    height: 100px;
+    border: 0px solid red;
+    border-radius: 50%;
+    margin-bottom: 30px
+}
+#cat {
+    margin-top: 10px
+}
+#otz1text {
+    color: coral;
+    font-weight: 600
+}
+#contacts {
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdf6a5+23,fdf6a5+23,fdf6a5+41,e5984b+100 */
+background: #fdf6a5; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #fdf6a5 23%, #fdf6a5 23%, #fdf6a5 41%, #e5984b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #fdf6a5 23%,#fdf6a5 23%,#fdf6a5 41%,#e5984b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #fdf6a5 23%,#fdf6a5 23%,#fdf6a5 41%,#e5984b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf6a5', endColorstr='#e5984b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    height: 600px
+}
+#contactsh2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: firebrick;
+    padding-top: 20px
+}
+#contactsthere {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: firebrick;
+    padding-top: 20px
+}
+#myadr {
+    float: left;
+    margin-left: 50px;
+    text-align: center
+}
+#mymail {
+   float: left;
+    margin-left: 50px;
+    text-align: center;
+    width: 200px;margin-left: 200px
+}
+#myphone {
+    margin-left: 50px;
+    text-align: center
+}
+#contactselements {
+    margin-top: 30px;
+    color: chocolate;
+    font-weight: bold
+}
+#message {
+    text-align: center;
+    margin-top: 20px;
+}
+#messageh2 {
+   font-size: 30px;
+    color: chocolate;
+    font-weight: 900 
+}
+#yourname {
+    width: 700px;
+    height: 20px;
+    margin: 10px;
+    text-align: center
+}
+#yourmail {
+    width: 700px;
+    height: 20px;
+    margin: 10px;
+    text-align: center
+}
+#yourmessage {
+    width: 700px;
+    margin: 10px;
+    text-align: center
+}
+#gowid {
+    width: 200px;
+    float: left;
+    margin-left: 325px
+}
+#go {
+    width: 200px;
+    height: 20px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background: none;
+    color: chocolate
+}
+#resetwid {
+ margin-right: 20px
+  }
+#reset {
+     width: 200px;
+    height: 20px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background: none;
+    color: chocolate;
+}
+#icons {
+    margin-top: 40px
+}
+#tgic {
+    width: 50px;
+    margin-left: 350px;
+    float: left
+}
+#vkic {
+    width: 50px;
+    margin-left: 250px;
+    float: left
+}
+#instic {
+    width: 50px;
+    margin-left: 250px;
+    float: left
+}
+footer {
+    background: black;
+    height: 30px;
+    text-align: center;
+    color: white;;
+    line-height: 30px
+}
+#vkk {
+    color: blue
+}
+
+
+    
+
+    
+
+
