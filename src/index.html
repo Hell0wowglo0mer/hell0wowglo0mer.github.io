@@ -196,7 +196,9 @@
         </div>
         <div id="otz1">
             <div><img id="otz1img" src="img/gIduiHxlFLE.jpg" alt="" width="100"></div>
-            <div id="otz1text"><span> Кот максимально доволен тем что его кормят вовремя <br><div id="cat"><big>Кот</big></div></span></div>
+            <div id="otz1text"><span> Кот максимально доволен тем что его кормят вовремя <br>
+                    <div id="cat"><big>Кот</big></div>
+                </span></div>
         </div>
     </div>
     <div id="contacts">
@@ -225,13 +227,15 @@
                         <h2>Оставьте мне сообщение</h2>
                     </span>
                 </div>
-                <div>
-                    <div><input id="yourname" type="subtitle" placeholder="Ваше имя"></div>
-                    <div><input id="yourmail" type="subtitle" placeholder="Email"></div>
-                    <div><textarea name="" id="yourmessage" cols="30" rows="10" placeholder="Ваше сообщение"></textarea></div>
-                    <div id="gowid"><input id="go" type="submit" value="Отправить"></div>
-                    <div id="resetwid"><input id="reset" type="reset" value="Сбросить"></div>
-                </div>
+                <form id="formm" action="malto:glo0mer@mail.ru" enctype="text/plain">
+                    <div>
+                        <div><input id="yourname" type="subtitle" placeholder="Ваше имя"></div>
+                        <div><input id="yourmail" type="subtitle" placeholder="Email"></div>
+                        <div><textarea name="" id="yourmessage" cols="30" rows="10" placeholder="Ваше сообщение"></textarea></div>
+                        <div id="gowid"><input id="go" type="submit" value="Отправить"></div>
+                        <div id="resetwid"><input id="reset" type="reset" value="Сбросить" form="formm"></div>
+                    </div>
+                </form>
                 <div id="icons">
                     <div id="tgic"><img src="img/pngwing.com%20(3).png" alt="" width="50"></div>
                     <div id="vkic"><a href="https://vk.com/hell0896" target="_blank"> <img src="img/pngwing.com%20(4).png" alt="" width="50"></a></div>
